@@ -26,10 +26,3 @@ jobs:
       # Runs a single command using the runners shell
       - name: ESLint (JS/TS) Action 
         uses: iCrawl/action-eslint@v1
-
-      # Runs tests
-      - name: Newman Action
-      - uses: matt-ball/newman-action@master
-        with:
-          collection: ./tests/api-tests.postman.json
-          environment: ./tests/env-api-tests.postman.json
