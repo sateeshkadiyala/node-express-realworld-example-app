@@ -32,4 +32,4 @@ jobs:
       - uses: matt-ball/newman-action@master
         with:
           collection: ./tests/api-tests.postman.json
-          environment: /tests/env-api-tests.postman.json
+          environment: ./tests/env-api-tests.postman.json
